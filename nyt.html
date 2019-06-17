@@ -7,10 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <div class="logo-container">
+    <div class="logo">The New York Times</div>
+  </div>
   <nav>
     <div class="nav-side">
-      <i class="fa fa-bars"></i>
-      <i class="fa fa-search"></i>
+      <i class="fa fa-bars nav-icon"></i>
+      <i class="fa fa-search nav-icon"></i>
       <a href="#" class="subject">space & cosmos</a>
     </div>
     <div class="nav-side">
@@ -18,9 +21,7 @@
       <button class="btn">log in</button>
     </div>
   </nav>
-  <div class="logo-container">
-    <div class="logo">The New York Times</div>
-  </div>
+  
   <main class="main-container">
     <header class="article">
       <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
@@ -52,57 +53,195 @@
       </div>
       <footer class="article-footer">
         <button class="btn comment-button">read 615 comments</button>
-        <i class="share"></i>
-        <i class="share"></i>
-        <i class="share"></i>
-        <i class="share"></i>
+        <div class="social">
+          <i class="round fa fa-facebook-f"></i>
+          <i class="round fa fa-twitter"></i>
+          <i class="round fa fa-envelope-o"></i>
+          <i class="round fa fa-share"></i>
+        </div>
       </footer>
     </article>
     <div class="below-article">
       <div class="related">
         <div class="more-in">
           <h3>More in Space & Cosmos</h3>
-          <div class="teaser">
-            <img src="" class="thumb">
-            <div class="thumb-credit"></div>
-            <h4 class="thumb-title"></h4>
-            <div class="thumb-date"></div>
+          <div class="more-in-grid">
+            <div class="teaser">
+              <img src="images/07NASA1-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">Roscosmos,via NASA</div>
+              <a href="#" class="thumb-title">Want to Buy a Ticket to the Space Station? NASA Says Soon You Can</a>
+              <div class="thumb-date">June 7</div>
+            </div>
+            <div class="teaser">
+              <img src="images/07TRUMPMOON1-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">Joel Kowsky/Agence France-Presse — Getty Images</div>
+              <a href="#" class="thumb-title">One Small Tweet for Trump, One Giant Question for NASA’s Moon Plans</a>
+              <div class="thumb-date">June 7</div>
+            </div>
+            <div class="teaser">
+              <img src="images/31SCI-SATELLITES2-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">SpaceX</div>
+              <a href="#" class="thumb-title">After SpaceX Starlink Launch, a Fear of Satellites That Outnumber All Visible Stars</a>
+              <div class="thumb-date">June 1</div>
+            </div>
+            <div class="teaser">
+              <img src="images/14SCI-APOLLO10a-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">JSC/NASA</div>
+              <a href="#" class="thumb-title">Why Apollo 10 Stopped Just 47,000 Feet From the Moon</a>
+              <div class="thumb-date">May 13</div>
+            </div>
+            <div class="teaser">
+              <img src="images/13MOONQUAKES-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">Project Apollo Archive/NASA</div>
+              <a href="#" class="thumb-title">Shrinking and Quaking Hint at Moon’s Tectonic Life</a>
+              <div class="thumb-date">June 7</div>
+            </div>
+            <div class="teaser">
+              <img src="images/01tb-moon-video-still-threeByTwoSmallAt2X.png" class="thumb">
+              <div class="thumb-credit">Image by 2019 Natsuki Hosono, Hirotaka Nakayama, 4D2U Project, NAOJ</div>
+              <a href="#" class="thumb-title">A Violent Splash of Magma That May Have Made the Moon</a>
+              <div class="thumb-date">May 1</div>
+            </div>
           </div>
-          ...
         </div>
         <div class="editors-picks">
-          ...
+          <h3>Editors' Picks</h3>
+          <div class="editors-grid">
+            <div class="teaser">
+              <img src="images/00drinkingculture-1-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">Photo Illustration by Tracy Ma/The New York Times; Shutterstock (people)</div>
+              <a href="#" class="thumb-title">The New Sobriety</a>
+              <div class="thumb-date">June 15</div>
+            </div>
+            <div class="teaser">
+              <img src="images/9a8636c4c6a041f59eaf3e763969d808-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">Amy Lombard for The New York Times</div>
+              <a href="#" class="thumb-title">The Real Dog Moms of New York City</a>
+              <div class="thumb-date">June 14</div>
+            </div>
+            <div class="teaser">
+              <img src="images/12mobmovie-arrest-threeByTwoSmallAt2X.jpg" class="thumb">
+              <div class="thumb-credit">Giulio Broglio/Associated Press</div>
+              <a href="#" class="thumb-title">They Hid From the Mob for Decades. Now They Will Surface in a Film.</a>
+              <div class="thumb-date">June 12</div>
+            </div>
+          </div>
         </div>
         <aside class="most-popular">
-          <h4 class="pop-title"></h4>
-          ...
+          <h3>Most Popular</h3>
+          <a href="#" class="pop thumb-title">When Britney Spears Posts on Instagram, a Thousand Conspiracies Flower</a>
+          <a href="#" class="pop thumb-title">How Neil Patrick Harris and David Burtka Spend Their Sundays</a>
+          <a href="#" class="pop thumb-title">Opinion: A Down and Dirty White House</a>
+          <a href="#" class="pop thumb-title">The New Sobriety</a>
+          <a href="#" class="pop thumb-title">U.S. Escalates Online Attacks on Russia’s Power Grid</a>
+          <a href="#" class="pop thumb-title">Trump Campaign to Purge Pollsters After Leak of Dismal Results</a>
+          <a href="#" class="pop thumb-title">One Reluctant Night Out Leads to a Forever Date</a>
+          <a href="#" class="pop thumb-title">Opinion: How Should Christians Have Sex?</a>
+          <a href="#" class="pop thumb-title">Opinion: Marijuana Damages Young Brains</a>
+          <a href="#" class="pop thumb-title">Opinion: In Stores, Secret Bluetooth Surveillance Tracks Your Every Move</a>
         </aside>
       </div>
+      <div class="newspaper-header">
+        <div class="logo">The New York Times</div>
+        <a href="#" class="home-link">Go to Home Page >></a>
+      </div>
       <div class="newspaper-nav">
-        <div class="newspaper-header">
-          <img src="" class="logo">
-          <span class="home-link">Go to Home Page >></span>
-        </div>
         <div class="category">
           <h5>news</h5>
-          <p class="subcategory">Home Page</p>
-          ...
+          <p class="subcategory"><a href="#">Home Page</a></p>
+          <p class="subcategory"><a href="#">World</a></p>
+          <p class="subcategory"><a href="#">U.S.</a></p>
+          <p class="subcategory"><a href="#">Politics</a></p>
+          <p class="subcategory"><a href="#">Business</a></p>
+          <p class="subcategory"><a href="#">Tech</a></p>
+          <p class="subcategory"><a href="#">Science</a></p>
+          <p class="subcategory"><a href="#">Sports</a></p>
+          <p class="subcategory"><a href="#">Obituaries</a></p>
+          <p class="subcategory"><a href="#">Today's Paper</a></p>
+          <p class="subcategory"><a href="#">Corrections</a></p>
         </div>
-        ...
+        <div class="category">
+          <h5>opinion</h5>
+          <p class="subcategory"><a href="#">Today's Opinion</a></p>
+          <p class="subcategory"><a href="#">Op-Ed Columnists</a></p>
+          <p class="subcategory"><a href="#">Editorials</a></p>
+          <p class="subcategory"><a href="#">Op-Ed Contributors</a></p>
+          <p class="subcategory"><a href="#">Letters</a></p>
+          <p class="subcategory"><a href="#">Sunday Review</a></p>
+          <p class="subcategory"><a href="#">Video: Opinion</a></p>
+        </div>
+        <div class="category">
+          <h5>arts</h5>
+          <p class="subcategory"><a href="#">Today's Arts</a></p>
+          <p class="subcategory"><a href="#">Art & Design</a></p>
+          <p class="subcategory"><a href="#">Books</a></p>
+          <p class="subcategory"><a href="#">Dance</a></p>
+          <p class="subcategory"><a href="#">Movies</a></p>
+          <p class="subcategory"><a href="#">Music</a></p>
+          <p class="subcategory"><a href="#">Pop Culture</a></p>
+          <p class="subcategory"><a href="#">Television</a></p>
+          <p class="subcategory"><a href="#">Theater</a></p>
+          <p class="subcategory"><a href="#">Viceo: Arts</a></p>
+        </div>
+        <div class="category">
+          <h5>living</h5>
+          <p class="subcategory"><a href="#">Automobiles</a></p>
+          <p class="subcategory"><a href="#">Crossword</a></p>
+          <p class="subcategory"><a href="#">Education</a></p>
+          <p class="subcategory"><a href="#">Food</a></p>
+          <p class="subcategory"><a href="#">Health</a></p>
+          <p class="subcategory"><a href="#">Jobs</a></p>
+          <p class="subcategory"><a href="#">Magazine</a></p>
+          <p class="subcategory"><a href="#">Parenting</a></p>
+          <p class="subcategory"><a href="#">Real Estate</a></p>
+          <p class="subcategory"><a href="#">Style</a></p>
+          <p class="subcategory"><a href="#">T Magazine</a></p>
+          <p class="subcategory"><a href="#">Travel</a></p>
+          <p class="subcategory"><a href="#">Weddings</a></p>
+        </div>
+        <div class="category">
+          <h5>more</h5>
+          <p class="subcategory"><a href="#">Reader Center</a></p>
+          <p class="subcategory"><a href="#">Wirecutter</a></p>
+          <p class="subcategory"><a href="#">Live Events</a></p>
+          <p class="subcategory"><a href="#">The Learning Network</a></p>
+          <p class="subcategory"><a href="#">Tools & Services</a></p>
+          <p class="subcategory"><a href="#">N.Y.C. Events Guide</a></p>
+          <p class="subcategory"><a href="#">Multimedia</a></p>
+          <p class="subcategory"><a href="#">Photography</a></p>
+          <p class="subcategory"><a href="#">Video</a></p>
+          <p class="subcategory"><a href="#">Newsletters</a></p>
+          <p class="subcategory"><a href="#">N.Y.T. Store</a></p>
+          <p class="subcategory"><a href="#">Times Journeys</a></p>
+          <p class="subcategory"><a href="#">Manage My Account</a></p>
+        </div>
+        <div class="category category-subscribe">
+          <h5>subscribe</h5>
+          <p class="subcategory-large"><a href="#">Home Delivery</a></p>
+          <p class="subcategory-large"><a href="#">Digital Subscriptions</a></p>
+          <p class="subcategory-large"><a href="#">Crossword</a></p>
+          <p class="subcategory-large"><a href="#">Cooking</a></p>
+          <p class="subcategory-small"><a href="#">Email Newsletters</a></p>
+          <p class="subcategory-small"><a href="#">Corporate Subscriptions</a></p>
+          <p class="subcategory-small"><a href="#">Education Rate</a></p>
+          <div class="hr"></div>
+          <p class="subcategory-small"><a href="#">Mobile Applications</a></p>
+          <p class="subcategory-small"><a href="#">Replica Edition</a></p>
+        </div>
       </div>
+      <footer class="nyt-links">
+        <a href="#" class="footer-link">© 2019 The New York Times Company</a>
+        <a href="#" class="footer-link">Contact Us</a>
+        <a href="#" class="footer-link">Work with us</a>
+        <a href="#" class="footer-link">Your Ad Choices</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Terms of Service</a>
+        <a href="#" class="footer-link">Terms of Sale</a>
+        <a href="#" class="footer-link">Site Map</a>
+        <a href="#" class="footer-link">Help</a>
+        <a href="#" class="footer-link">Subscriptions</a>
+      </footer>
     </div>
-    <footer class="nyt-links">
-      <a href="#" class="footer-link">© 2019 The New York Times Company</a>
-      <a href="#" class="footer-link">Contact Us</a>
-      <a href="#" class="footer-link">Work with us</a>
-      <a href="#" class="footer-link">Your Ad Choices</a>
-      <a href="#" class="footer-link">Privacy</a>
-      <a href="#" class="footer-link">Terms of Service</a>
-      <a href="#" class="footer-link">Terms of Sale</a>
-      <a href="#" class="footer-link">Site Map</a>
-      <a href="#" class="footer-link">Help</a>
-      <a href="#" class="footer-link">Subscriptions</a>
-    </footer>
     <footer class="subscribe">
       <a href="#">Subscribe to the New York Times</a>
     </footer>
