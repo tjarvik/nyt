@@ -161,6 +161,11 @@ nav {
 	font-size: 22px;
 	margin-bottom: 10px;
 }
+
+.article-text {
+	margin-top: 15px;
+}
+
 .article h1{
 	font-size: 35px;
 	font-style: italic;
@@ -173,8 +178,67 @@ nav {
 h3 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 600;
-	margin-bottom: 20px;
+	margin: 20px 0;
 	font-size: 16px;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: 600;
+}
+
+.inflation {
+	margin-left: -160px;
+	width: 940px;
+	display: grid;
+	grid-template-rows: 100px 600px 80px;
+	grid-auto-flow: column;
+}
+
+.inflation p {
+	color: #999;
+	font-size: 16px;
+}
+
+.inflation img {
+	width: 940px;
+	grid-area: 2 / 1 / span 1 / -1;
+}
+
+.inflation-grid {
+	grid-area: 2 / 1 / span 1 / -1;
+	display: grid;
+	grid-template-columns: repeat (4, 1fr);
+	grid-template-rows: 120px [captions1] 1fr 80px [captions2] 1fr;
+	grid-gap: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1;
+}
+
+.inflation-caption1 {
+	grid-row-start: captions1;
+}
+
+.inflation-caption2 {
+	grid-row-start: captions2;
+}
+
+.caption-intro {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 11px;
+	margin-right: 15px;
+}
+
+.caption-body {
+	font-size: 12px;
+	color: #666;
+}
+
+.inflation-credit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
 }
 
 .social {
@@ -278,12 +342,6 @@ h3 {
 	margin-bottom: 10px;
 	font-size: 12px;
 	color: #999;
-}
-
-h3 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 600;
-	margin: 20px 0;
 }
 
 .pop {
